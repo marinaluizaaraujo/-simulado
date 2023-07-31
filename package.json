@@ -1,16 +1,19 @@
 {
   "name": "simulado-m",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "homepage": "https://marinaluizaaraujo.github.io/-simulado ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publisher": "gh-pages -d ./"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
