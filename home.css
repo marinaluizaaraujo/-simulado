@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    min-height: 100vh;
+    background-color: #77ACD5;
+    color: #ffffff;
+}
+
+/* #110F0D  */
+header {
+    background-color:#DD7534;
+    padding: 20px;
+}
+
+header nav {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+table {
+    display: flex;
+    align-items: center;
+}
+
+nav th {
+    padding: 02px 170px;
+    font-size: 27px;
+}
+
+.logo {
+    height: 90px;
+    width: 100px;
+}
+
+section {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section a:hover {
+    color: #77ACD5;
+    transform: scale(1.2);
+}
+
+.conteudo {
+    color: #000000;
+    padding: 13px 83px;
+    border-radius: 16px;
+    background: #e6e6e6;
+    ;
+    box-shadow: inset 9px 9px 18px #96989f,
+        inset -9px -9px 18px #ffffff;
+    /* border-radius: 16px;
+    background: #ffffff;
+    box-shadow: inset 9px 9px 18px #bababa,
+        inset -9px -9px 18px #ffffff; */
+}
+
+.imghome {
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.imgquemsomos {
+    height: 60px;
+    width: 60px;
+}
+
+.pngnossossevocos {
+    height: 90px;
+    width: 90px;
+}
+
+.pngtrabalheconcosco {
+    height: 100px;
+    width: 100px;
+}
+
+footer {
+    background-color:#DD7534 ;
+    color: #DD7534;
+    padding: 20px;
+}
+
+
+

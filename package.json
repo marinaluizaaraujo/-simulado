@@ -1,0 +1,16 @@
+{
+  "name": "simulado-m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://marinaluizaaraujo.github.io/-simulado ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publisher": "gh-pages -d ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
